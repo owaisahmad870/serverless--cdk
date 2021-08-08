@@ -93,9 +93,5 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
 When yoy connect an appsync to a data scource and send a request to appsync, thats redirected to the data source
 so we have lamda function of the data source lambda will have	
 access to the entire request all the	inputs and arguments and then lambda	
-would do some processing and return something welcome.ts
-it would map onto the response of the appsync
-
-
-
-*/
+would do some processing and return something index.ts
+it would map onto the response of the appsync  */
