@@ -1,0 +1,11 @@
+  
+type Query {
+  notes: [String]
+  customNote(title: String!): String!
+}
+
+
+
+
+
+## for mutation see https://www.youtube.com/watch?v=iJj32I9A_Nc at 50:00 onwards
