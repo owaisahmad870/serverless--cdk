@@ -66,20 +66,7 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Appsunc helps us to create a graphql api so that our lambda function can be accessed with the graphql
 
 
 //there are three type of queries in graphql1: queries which acces the data. mutation which update the data
@@ -93,5 +80,4 @@ export class Step03AppsyncLambdaAsDatasourceStack extends cdk.Stack {
 When yoy connect an appsync to a data scource and send a request to appsync, thats redirected to the data source
 so we have lamda function of the data source lambda will have	
 access to the entire request all the	inputs and arguments and then lambda	
-would do some processing and return something index.ts
-it would map onto the response of the appsync  */
+would do some processing and return something index.ts It would map onto the response of the appsync  */
